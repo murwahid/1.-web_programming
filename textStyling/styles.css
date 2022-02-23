@@ -1,0 +1,35 @@
+.cloud {
+    background-color: black;
+    padding:0.5px;
+    margin:5px;
+}
+
+.whiteText {
+    color:white;
+}
+
+.blueText {
+    color:cyan;
+}
+
+.completed {
+    background-color: purple;
+    padding:0.5px;
+    margin: 5px;
+}
+
+#compPro {  
+    color:white;
+    font-style: italic;
+    text-align: center;
+}
+
+.contactBlock {
+    background-color: steelblue;
+    padding: 0.5px;
+    margin:5px;
+    text-decoration: underline;
+}
+.contact{
+    text-align: right;
+}
