@@ -1,0 +1,61 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
+/* CONTAINER */
+.container {
+    display:block;
+    background-color: #eef4fa;
+    min-height: 100vh;
+}
+
+/* HEADING */
+.heading {
+    color: #3b4769;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/* BOX: ONE */
+.one {
+    background-color: #59c6fc;
+    display:flex;
+    justify-content: space-evenly;
+    width: 80vw;
+}
+
+/* BOX: TWO */
+.two {
+    background-color: #cca2b8;
+    display:flex;
+    justify-content: space-evenly;
+    width: 80vw;
+}
+
+/* BOX: THREE */
+.three {
+    background-color: #fcfcff;
+    display:flex;
+    justify-content: space-around;
+    width: 80vw;
+
+}
+
+/* FLEX */
+.flex {
+    margin: 20px auto;
+}
+/* FOOTER */
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+/* SMALL */
+.small {
+    height:170px;
+    padding:5px;
+    width: 170px; 
+}
