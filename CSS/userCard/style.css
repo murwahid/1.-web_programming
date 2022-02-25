@@ -1,0 +1,60 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+.card {
+    border: 3px solid lightgrey;
+    border-radius: 7px;
+    margin: 50px auto;
+    min-height: 300px;
+    width: 500px;
+}
+
+.header {
+    background-color: #18a2b8;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    min-height: 75px;
+    position: relative;
+}
+
+.user-circle {
+    position: absolute;
+    top:25px;
+    left:30px;
+    width:80px;
+}
+
+/* SPACE */
+.space {
+    padding-top: 10px;
+}
+/*FLEX*/
+.flex {
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+ gap: 15px;
+}
+
+/* MAP MARKER */
+.map-marker {
+    width: 15px;
+}
+/* BODY */
+.body {
+   padding-top: 40px;
+   padding-left: 25px;
+}
+
+/* SETTINGS */
+.settings {
+    color:mediumblue;
+    text-decoration: underline;
+}
+
+/* GEAR */
+.gear {
+    width:25px;
+}
