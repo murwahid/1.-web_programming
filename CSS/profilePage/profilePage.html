@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./userCard.css">
+</head>
+
+<body>
+    <!-- NAV -->
+    <!-- NAVBAR -->
+    <!-- BUTTON -->
+    <nav>
+        <div class="container flex-row">
+            <div class="nav-left flex-row">
+                <h1>Profile</h1>
+                <ul class="flex-row">
+                    <li>Home</li>
+                    <li>My Profile</li>
+                    <li>Find Connections</li>
+                </ul>
+            </div>
+            <button class="btn"> <strong>Sign Out</strong> </button>
+        </div>
+    </nav>
+    <div class="container flex-row">
+        <div class="col-left">
+            <!-- CARD -->
+            <!-- REUSE OTHER CARD CODE -->
+            <div class="card">
+                <div class="header">
+                    <img class="user-circle" src="./images/user-circle.png" alt="">
+                </div>
+                <div class="body">
+                    <h1>Jane Doe</h1>
+                    <div class="location flex-start space">
+                        <!--Location: Seattle-->
+                        <img class="map-marker" src="./images/map-marker.png" alt="map marker">
+                        <h3> Seattle</h3>
+                    </div>
+                    <div class="titles flex-start space">
+                        <!--titles-->
+                        <p>Developer | </p>
+                        <p>Engineer | </p>
+                        <p>Problem Solver</p>
+                    </div>
+                    <p>Master of shadows and the Internet!</p>
+                    <!--SENTENCE-->
+                    <div class="settings flex-start space">
+                        <!-- SETTINGS ICON -->
+                        <img class="gear" src="./images/gear.png" alt="gear icon">
+                        <p>edit profile</p>
+                    </div>
+                </div>
+            </div>
+            <!-- EDUCATION-->
+            <!-- THIS IS A CARD TOO -->
+            <div class="dark-card large">
+                <div class="box-header">
+                    <p class="box-text"> Education </p>
+                </div>
+                <div class="flex padding">
+                    <h1>Coding Dojo- Full Stack Bootcamp</h1>
+                    <h2 class="year"> Dec 2019- Mar 2020</h2>
+                    <h3>Triple black belt in Python, MERN and C#</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-right">
+            <!-- BOX: CONNECTION REQUESTS -->
+            <!-- CIRCLE: DISPLAYS NUMBER -->
+            <!-- IMAGE + PERSON NAME COMPONENT -->
+            <div class="dark-card small">
+                <div class="box-header">
+                    <p class="circle">2</p>
+                    <p class="box-text"> Connection Requests</p>
+                </div>
+                <div class="flex">
+                    <!-- TEMPLATE: USER CELL -->
+                    <div class="user-cell ">
+                        <img class="photo-circle" src="./images/todd-s.jpg" alt="todd-e">
+                        <p> Todd E</p>
+                        <img class="icon-circle" src="./icons 2/accept-circle.png" alt="accept">
+                        <img class="icon-circle" src="./icons 2/close-circle.png" alt="close">
+                    </div>
+                    <!-- TEMPLATE: USER CELL -->
+                    <div class="user-cell">
+                        <img class="photo-circle" src="./images/phil-s.jpg" alt="Phil K">
+                        <p> Phil K</p>
+                        <img class="icon-circle" src="./icons 2/accept-circle.png" alt="accept">
+                        <img class="icon-circle" src="./icons 2/close-circle.png" alt="close">
+                    </div>
+                </div>
+            </div>
+            <!-- BOX: YOUR CONNECTIONS -->
+            <!-- CIRCLE: DISPLAYS NUMBER -->
+            <!-- IMAGE + PERSON NAME COMPONENT -->
+            <div class="dark-card small">
+                <div class="box-header">
+                    <p class="circle">500+</p>
+                    <p class="box-text"> Your Connections</p>
+                </div>
+                <div class="flex padding-bottom">
+                    <!-- TEMPLATE: USER CELL -->
+                    <div class="user-cell">
+                        <img class="photo-circle" src="./images/adrien-s.jpg" alt="Adrien Person">
+                        <p> Adrien D</p>
+                    </div>
+                    <div class="user-cell ">
+                        <img class="photo-circle" src="./images/anne-s.jpg" alt="Anne J">
+                        <p> Anne J</p>
+                    </div>
+                    <!-- TEMPLATE: USER CELL -->
+                    <div class="user-cell">
+                        <img class="photo-circle" src="./images/alayne-s.jpg" alt="Alayne T">
+                        <p> Alayne T</p>
+                    </div>
+                    <!-- TEMPLATE: USER CELL -->
+                    <div class="user-cell ">
+                        <img class="photo-circle" src="./images/arry-s.jpg" alt="Arry Y">
+                        <p> Arry Y</p>
+                    </div>
+                    <p class="dark-card padding-top"><a href="">View More</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- LINK: VIEW MORE -->
+</body>
+
+</html>
