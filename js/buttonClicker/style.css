@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    font-family: 'Balsamiq Sans', cursive;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 500px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+}
+
+header {
+    background-color:#cccccc;
+    padding:10px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    box-shadow: 2px 2px black;
+    background-color:#2b78e4;
+    border: 2px solid black;
+    color:white;
+    padding: 2.5px 10px;
+    pad
+}
+
+.btn-yw {
+    background-color: hsl(45deg 100% 70%);
+    border: 2.5px solid black;
+    padding: 5px;
+    box-shadow: 2px 2px black;
+    margin-top:5px;
+}
+
+.btn-grn {
+    background-color:#93c47d;
+    box-shadow: 2px 2px black;
+    padding: 2px 10px;
+    margin-top:5px;
+}
+
+.col-right {
+    align-self: flex-start;
+}
+
+.card {
+    border: 2px solid;
+    padding:10px;
+    margin: 5px;
+}
+
+#searchBar {
+    border: 2px solid black;
+}
+
+/* WORD */
+.word {
+    display:inline-block;
+    justify-content: center;
+}

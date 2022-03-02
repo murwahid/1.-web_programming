@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="flex">
+            <!-- HEADER -->
+            <h1>Dojonary</h1>
+            <input type="search" name="search" placeholder="Search..." id="searchBar">
+            <button class="btn" onclick="logOut(this)">Login</button>
+        </header>
+        <main class="flex">
+            <!-- LEFT COLUMN -->
+            <div class="col-left">
+                <div class="card flex">
+                    <div class="word">
+                        <h1>ninja</h1>
+                        <h4><em>noun</em></h4>
+                        <p>Plural:<em>ninjas</em></p>
+                        <button class="btn-yw" onclick="like()"> 13 likes</button>
+                    </div>
+                    <div class="def">
+                        A practitioner skilled in the <a href="">Japanese</a> art of <a href="">ninjutsu</a>
+                    </div>
+                </div>
+                <div class="card flex">
+                    <div class="word">
+                        <h1>ninja</h1>
+                        <h4><em>noun</em></h4>
+                        <p>Plural:<em>ninjas</em></p>
+                        <button onclick="like()" class="btn-yw"> 37 likes</button>
+                    </div>
+                    <div class="def">
+                        A <a href="">programmer</a> who breaks down problems with <a href="">zen</a>-like focus
+                    </div>
+                </div>
+            </div>
+            <!-- RIGHT COLUMN -->
+            <div class="col-right">
+                <div class="card">
+                    <h3>Dojonary is defined by <strong>YOU</strong></h3>
+                    <button class="btn-grn" onclick="remove(this)"> Add Definition</button>
+                </div>
+            </div>
+        </main>
+    </div>
+    <!-- Improvement: Make sure script tag is at the end -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
