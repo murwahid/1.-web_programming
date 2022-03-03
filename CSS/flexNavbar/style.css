@@ -24,14 +24,19 @@
     padding:1.5rem;
 }
 
+/* nav anchor tags */
 .nav-links a {
     color:white;
+    text-decoration:none;
 }
 
+/* nav list items */
 .nav-links li {
     list-style: none;
+    
 }
 
+/* button sign-out */
 .btn {
     background-color: #18a2b8;
     border: 2px solid black;
