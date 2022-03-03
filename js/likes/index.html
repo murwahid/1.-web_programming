@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liking Likes</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="mb">
+        <h1 class="container">Network</h1>
+    </header>
+    <main>
+        <h1 class="text-center mb">Your Feed</h1>
+        <div class="flex">
+            <div class="col-left">
+                <div class="user-card center">
+                    <img class="user-circle" src="./images/user-circle copy.png" alt="user icon">
+                    <br>
+                    <br>
+                    <a class="mt" href=""> Add an avatar</a>
+                    <h3 class="mb mt">James Doe</h3>
+                </div>
+            </div>
+            <div class="col-right box-align ">
+                <!-- USER CARD START -->
+                <div class="user-card mb">
+                    <div class="user-stats flex mb">
+                        <h3>Neil M</h3>
+                        <div class="likes flex">
+                            <p><span id="like1">9 </span> Like(s)</p>
+                            <button class="btn" onclick="addLikes1()">Like</button>
+                        </div>
+                    </div>
+                    <div>
+                        I just set this new discord bot, let me know what you all think. <a href="">link</a>
+                    </div>
+                </div>
+                <!-- USER CARD END -->
+                <!-- USER CARD START -->
+                <div class="user-card mb">
+                    <div class="user-stats flex mb">
+                        <h3>Nichole K</h3>
+                        <div class="likes flex">
+                            <p><span id="like2">12</span> Like(s)</p>
+                            <button class="btn" onclick="addLikes2()">Like</button>
+                        </div>
+                    </div>
+                    <div>
+                        Just finished <a href="">my next comic</a>, check it out.
+                    </div>
+                </div>
+                <!-- USER CARD END -->
+                <!-- USER CARD START -->
+                <div class="user-card mb">
+                    <div class="user-stats flex mb">
+                        <h3>Jim K</h3>
+                        <div class="likes flex">
+                            <p><span id="like3">9</span> Like(s)</p>
+                            <button class="btn" onclick="addLikes3()">Like</button>
+                        </div>
+                    </div>
+                    <div>
+                        I can't stop listening to the <a href="">new album.</a> Who else is liking it?
+                    </div>
+                </div>
+                <!-- USER CARD END -->
+            </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>

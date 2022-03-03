@@ -1,0 +1,85 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Balsamiq Sans', cursive;
+    /* border:1px dotted red; */
+}
+
+/* utility class */
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:20px;
+}
+
+.container { 
+    margin:0 auto;
+    padding: 10px 0;
+    width:50%;
+}
+.mb {
+    margin-bottom:20px;
+}
+
+.mt {
+    margin-top:10px;
+}
+
+main {
+    margin: 0 auto;
+    width:50%;
+}
+
+.center {
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    color:white;
+}
+
+.col-left {
+    /* background-color:blanchedalmond; */
+    flex: 1;
+}
+
+.col-right {
+    /* background-color: blanchedalmond; */
+    flex:3;
+}
+
+/* user card */
+.user-card {
+    border: 3px solid black; 
+    padding: 10px 15px; 
+}
+
+
+.btn {
+    background-color: #ffd966;
+    border:2px solid black;
+    box-shadow: 3px 3px black;
+    padding:5px 10px;
+}
+
+.box-align {
+    align-self: flex-start;
+}
+
+.user-circle {
+    height: 75px;
+    width:75px;
+    }
+
+.text-center {
+    display:flex;
+    justify-content:center;
+    align-items:center; 
+    text-align:center;
+}
